@@ -1,0 +1,6 @@
+[submodule "CMake"]
+	path = CMake
+	url = https://gitlab.com/CMingTseng/ndk_relation_cmake.git
+[submodule "Androidmk"]
+	path = Androidmk
+	url = https://gitlab.com/CMingTseng/ndk_relation_androidmk.git

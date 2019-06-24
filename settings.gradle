@@ -1,0 +1,38 @@
+//Androidmk
+
+
+
+//CMake
+include ':CmakeMultiSo_layer1'
+project(":CmakeMultiSo_layer1").projectDir = file("./CMake/CmakeMultiSo/layer1")
+
+include ':CmakeMultiSo_layer1library'
+project(":CmakeMultiSo_layer1library").projectDir = file("./CMake/CmakeMultiSo/layer1library")
+
+include ':CmakeMultiSo_middle'
+project(":CmakeMultiSo_middle").projectDir = file("./CMake/CmakeMultiSo/middle")
+
+include ':CmakeMultiSo_middleapp'
+project(":CmakeMultiSo_middleapp").projectDir = file("./CMake/CmakeMultiSo/middleapp")
+
+include ':CmakeMultiSo_middlepureapp'
+project(":CmakeMultiSo_middlepureapp").projectDir = file("./CMake/CmakeMultiSo/middlepureapp")
+
+include ':CmakeMultiSo_middlelibrary'
+project(":CmakeMultiSo_middlelibrary").projectDir = file("./CMake/CmakeMultiSo/middlelibrary")
+
+
+include ':CmakeMultiSo_middlelibrary2'
+project(":CmakeMultiSo_middlelibrary2").projectDir = file("./CMake/CmakeMultiSo/middlelibrary2")
+
+include ':CmakeMultiSo_middlelibrary3'
+project(":CmakeMultiSo_middlelibrary3").projectDir = file("./CMake/CmakeMultiSo/middlelibrary3")
+
+include ':CmakeMultiSo_middlepureappthrlevel'
+project(":CmakeMultiSo_middlepureappthrlevel").projectDir = file("./CMake/CmakeMultiSo/middlepureappthrlevel")
+
+
+include ':CmakeMultiSo_app'
+project(":CmakeMultiSo_app").projectDir = file("./CMake/CmakeMultiSo/app")
+
+
